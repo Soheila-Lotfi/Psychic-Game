@@ -38,5 +38,10 @@
         guessesLeft=9;
         computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
       }
+// show the result on the page using innerHtml
+   document.getElementById("wins-text").innerHTML="<p> Wins: " + wins + "</p>" ;
+   document.getElementById("Losses-text").innerHTML="<p>Losses: " + losses + "</p>";
+   document.getElementById("Guessesleft-text").innerHTML= "<p>Guesses Left: " + guessesLeft + "</p>";
+   document.getElementById("yourguessessofar-text").innerHTML=	"<p>Your Guesses so far: " + yourGuessessofar + "</p>";
 
  }

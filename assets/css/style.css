@@ -1,0 +1,50 @@
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+}
+
+h1{
+
+    font-size:40px;
+    color: #4CAF50;
+    padding:10px;
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    font-size:28px;
+    color: #800006;
+    padding:10px;
+    text-align: center;
+    margin: 30px;
+}
+
+#wins-text{
+    color: #e91e85;  
+    padding:10px; 
+    text-align: center;
+    margin: 10px;  
+}
+
+#Losses-text{
+    color: #673AB7;
+    padding:10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#Guessesleft-text{
+    color: #FF9800;
+    padding:10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#yourguessessofar-text{
+    color: #4CAF50;
+    padding:10px;
+    text-align: center;
+    margin: 10px;
+}
